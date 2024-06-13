@@ -1,0 +1,57 @@
+body {
+  padding-top: 80px;
+  background-color: #e9eaf6;
+}
+
+/* Mengatur warna latar belakang navbar */
+.navbar {
+  background-color: #00095d; /* Warna biru gelap */
+  padding: 20px 0; /* Padding atas dan bawah */
+}
+
+/* Mengatur warna teks untuk navbar-brand dan nav-link */
+.navbar-brand, .navbar-nav .nav-link {
+  color: #fff; /* Warna putih untuk teks */
+}
+
+/* Mengatur warna teks saat hover */
+.navbar-brand:hover, .navbar-nav .nav-link:hover {
+  color: #ccc; /* Warna abu-abu terang saat hover */
+}
+
+/* Mengatur warna teks saat aktif (diklik) */
+.navbar-nav .nav-link.active {
+  color: #ff4495; /* Warna pink saat aktif */
+}
+
+/* Mengatur jarak antar item navigasi */
+.navbar-nav .nav-link {
+  margin-right: 15px; /* Sesuaikan jarak sesuai kebutuhan */
+}
+
+/* Menghapus padding dari Container yang membungkus navbar */
+.navbar-wrapper {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+/* Mengatur gaya section */
+.section {
+  padding: 60px 0;
+  min-height: 100vh; /* Membuat setiap section setinggi layar penuh */
+}
+
+.section-dark {
+  background-color: #ff4495;
+  color: #fff;
+}
+
+/* Media query untuk menambahkan background pada collapse menu di mobile */
+@media (max-width: 992px) {
+  .navbar-collapse {
+    background-color: #007bff; /* Warna biru */
+  }
+  .nav-link {
+    color: white; /* Warna teks pada navbar di mobile */
+  }
+}
